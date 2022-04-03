@@ -112,6 +112,7 @@ button {
 
 .info-container {
     display: flex;
+    gap: 20px;
     width: 65vw;
 }
 
@@ -119,11 +120,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.info-pic {
-    width: 200px;
-    height: 200px;
 }
 
 .text {
@@ -137,4 +133,8 @@ button {
 
 img.info-pic {
     border-radius: 25%;
+    width: 200px;
+    height: auto;
+    min-width: 50px;
+    max-width: 200px;
 }
