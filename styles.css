@@ -55,6 +55,7 @@ body {
     height: auto;
     padding: 0;
     margin: 20px;
+    border-radius: 5%;
 }
 
 .toppanel {
@@ -132,4 +133,8 @@ button {
     font-size: 18px;
     color: #1F2937;
     padding-bottom: 20px;
+}
+
+img.info-pic {
+    border-radius: 25%;
 }
