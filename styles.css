@@ -1,32 +1,66 @@
 body {
-    margin: 0px 50px 50px;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
 }
 
 .section1 {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-
+    padding: 15px 100px 60px 100px;
 }
 
 .topnavbar {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    padding: 8px 100px 0px 100px;
-    background-color: #1F2937;
+    margin-bottom: 60px;
 }
 
 .headerlogo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
+}
+
+.titlecard {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.heromaintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAf8;
+}
+
+.secondarytext {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.toppanelimage {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 20px;
 }
 
 .toppanel {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 ul {
@@ -41,5 +75,16 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
 
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 600;
+    padding: 8px;
+    font-size: 18px;
+    width: 125px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
 }
