@@ -169,3 +169,32 @@ img.info-pic {
     color: #1F2937; 
 }
 
+.section4 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px 30px 100px;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    display: flex;
+    padding: 15px 50px 15px 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.bbtext {
+    color: white;
+    font-size: 18px;
+}
+
+.bluebox button {
+    font-size: 12px;
+    border-color: white;
+    width: 100px;
+}
