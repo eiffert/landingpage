@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
+    margin:0;
+    padding:0;
     background-color: hotpink;
 }
 
@@ -26,9 +27,8 @@ body {
 .titlecard {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 600px;
     padding-right: 20px;
-
 }
 
 .heromaintext {
@@ -36,6 +36,7 @@ body {
     font-weight: 900;
     color: #F9FAf8;
     padding-bottom: 10px;
+    width: 80%;
 }
 
 .secondarytext {
@@ -98,7 +99,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: white;
     padding: 25px 100px 60px 100px;
 }
 
@@ -112,29 +113,56 @@ button {
 
 .info-container {
     display: flex;
-    gap: 20px;
-    width: 65vw;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    width: 25%;
 }
 
 .text {
     text-align: center;
-    margin-top: 8px;
-    width: 150px;
     font-size: 18px;
     color: #1F2937;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 img.info-pic {
     border-radius: 25%;
-    width: 200px;
+    width: 100%;
     height: auto;
-    min-width: 50px;
     max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    background-color: #E5E7EB;
+    padding: 25px 100px 40px 100px;
+}
+
+.quote {
+    font-size: 20px;
+    color: #1F2937;
+    padding-top: 25px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937; 
 }
